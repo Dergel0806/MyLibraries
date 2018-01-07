@@ -1,0 +1,10 @@
+C:\BinarySearch\WebElementBinarySearch\WebElementBinarySearch\bin\Debug\WebElementBinarySearch.dll
+C:\BinarySearch\WebElementBinarySearch\WebElementBinarySearch\bin\Debug\WebElementBinarySearch.pdb
+C:\BinarySearch\WebElementBinarySearch\WebElementBinarySearch\bin\Debug\WebDriver.dll
+C:\BinarySearch\WebElementBinarySearch\WebElementBinarySearch\bin\Debug\WebDriver.Support.dll
+C:\BinarySearch\WebElementBinarySearch\WebElementBinarySearch\bin\Debug\WebDriver.xml
+C:\BinarySearch\WebElementBinarySearch\WebElementBinarySearch\bin\Debug\WebDriver.Support.xml
+C:\BinarySearch\WebElementBinarySearch\WebElementBinarySearch\obj\Debug\WebElementBinarySearch.csprojResolveAssemblyReference.cache
+C:\BinarySearch\WebElementBinarySearch\WebElementBinarySearch\obj\Debug\WebElementBinarySearch.csproj.CoreCompileInputs.cache
+C:\BinarySearch\WebElementBinarySearch\WebElementBinarySearch\obj\Debug\WebElementBinarySearch.dll
+C:\BinarySearch\WebElementBinarySearch\WebElementBinarySearch\obj\Debug\WebElementBinarySearch.pdb
