@@ -14,9 +14,9 @@ namespace WebElementBinarySearch
             while (!list[i].Text.Equals(name))
             {
                 if (StrComparer.Compare(name, list[(j + i) / 2].Text) <= 0)
-                    j = (j + i) / 2;
+                    j = i+ (j - i) / 2;
                 else
-                    i = (j + i) / 2 + 1;
+                    i = i+ (j - i) / 2 + 1;
                 if (i==j && !list[i].Text.Equals(name)) throw new Exception("Element not found!");
             }
             return list[i];
