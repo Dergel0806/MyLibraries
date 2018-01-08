@@ -35,60 +35,7 @@ namespace WebElementBinarySearch
         {
             public int Compare(IWebElement x, IWebElement y)
             {
-                int i = 0;
-                int j = 0;
-                while (x.Text.Length - i != 0 && y.Text.Length - j != 0)
-                {
-                    while (x.Text[i] == '\'')
-                        i++;
-                    while (y.Text[j] == '\'')
-                        j++;
-                    switch (x.Text[i])
-                    {
-                        case 'і':
-                            if (y.Text[j] == 'ї')
-                                return -1;
-                            else if (y.Text[j] == 'и')
-                                return 1;
-                            else if (y.Text[j] == 'і')
-                                break;
-                            else if ('и'.CompareTo(y.Text[j]) != 0)
-                                return 'и'.CompareTo(y.Text[j]);
-                            break;
-
-                        case 'ї':
-                            if (y.Text[j] == 'й')
-                                return -1;
-                            else if (y.Text[j] == 'і')
-                                return 1;
-                            else if (y.Text[j] == 'ї')
-                                break;
-                            else if ('и'.CompareTo(y.Text[j]) != 0)
-                                return 'и'.CompareTo(y.Text[j]);
-                            break;
-
-                        case 'є':
-                            if (y.Text[j] == 'ж')
-                                return -1;
-                            else if (y.Text[j] == 'е')
-                                return 1;
-                            else if (y.Text[j] == 'є')
-                                break;
-                            else if ('е'.CompareTo(y.Text[j]) != 0)
-                                return 'е'.CompareTo(y.Text[j]);
-                            break;
-
-                        default:
-                            if (x.Text[i].CompareTo(y.Text[j]) != 0)
-                                return x.Text[i].CompareTo(y.Text[j]);
-                            break;
-
-                    }
-
-                    i++;
-                    j++;
-                }
-                return x.Text.Length.CompareTo(y.Text.Length);
+                return StrComparer.Compare(x.Text, y.Text);
             }
 
         }
